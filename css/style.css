@@ -1,0 +1,83 @@
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap");
+body {
+  font-size: 15px;
+  margin: 0;
+  font-family: "Outfit", sans-serif;
+  background: hsl(212, 45%, 89%);
+}
+
+.layout {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.layout .content {
+  width: 15%;
+  background: hsl(0, 0%, 100%);
+  padding: 12px;
+  border-radius: 12px;
+}
+.layout .content .img img {
+  max-width: 100%;
+  border-radius: 10px;
+}
+.layout .content h3, .layout .content p {
+  text-align: center;
+  padding: 0 8px;
+}
+.layout .content p {
+  color: hsl(220, 15%, 55%);
+  padding-bottom: 18px;
+}
+
+@media screen and (max-width: 1350px) {
+  .layout .content {
+    width: 17%;
+  }
+}
+@media screen and (max-width: 1100px) {
+  .layout .content {
+    width: 20%;
+  }
+}
+@media screen and (max-width: 1000px) {
+  .layout .content {
+    width: 25%;
+  }
+}
+@media screen and (max-width: 850px) {
+  .layout .content {
+    width: 33%;
+  }
+}
+@media screen and (max-width: 650px) {
+  .layout .content {
+    width: 40%;
+  }
+}
+@media screen and (max-width: 500px) {
+  .layout .content {
+    width: 50%;
+  }
+}
+@media screen and (max-width: 400px) {
+  .layout .content {
+    width: 70%;
+  }
+}
+@media screen and (max-width: 300px) {
+  .layout .content {
+    width: 80%;
+  }
+}
+.attribution {
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}/*# sourceMappingURL=style.css.map */
