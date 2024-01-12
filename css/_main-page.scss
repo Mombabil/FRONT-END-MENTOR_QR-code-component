@@ -1,0 +1,59 @@
+.content{
+    max-width: 1440px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    .card{
+        width: 320px;
+        background: $white;
+        padding: 18px;
+        border-radius: 10px;
+        border: 1px solid $black;
+        .card-img{
+            max-width: 100%;
+            img{
+                width: 100%;
+                object-fit: cover;
+                border-radius: 10px;
+            }
+        }
+        .card-category{
+            padding: 24px 0 16px 0;
+            span{
+                padding: 4px 12px;
+                border-radius: 8px;
+                background: $yellow;
+                font-weight: 600;
+                font-size: 14px;
+                color: $black;
+            }
+        }
+        .card-publishedAt{
+            font-size: 12px;
+            font-weight: 200;
+        }
+        .card-title{
+            font-size: 1rem;
+        }
+        .card-description{
+            font-weight: 600;
+            color: lighten($black, 15%);
+
+        }
+        .card-author{
+            span{
+                display: flex;
+                justify-content: flex-start;
+                align-items: center;
+                img{
+                    width: 25px;
+                    padding-right: 8px;
+                }
+                strong{
+                    font-weight: 600;
+                    font-size: 0.8rem;
+                }
+            }
+        }
+    }
+}
