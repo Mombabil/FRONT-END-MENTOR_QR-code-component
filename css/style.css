@@ -93,7 +93,7 @@ body .attribution {
 }
 .content .card .card-description {
   font-weight: 600;
-  color: hsl(0, 0%, 22%);
+  color: hsl(0, 0%, 32%);
 }
 .content .card .card-author span {
   display: flex;
