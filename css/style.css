@@ -21,7 +21,6 @@ body {
 }
 .layout .content .img img {
   max-width: 100%;
-  border-radius: 10px;
 }
 .layout .content h1 {
   font-size: 1.2em;
