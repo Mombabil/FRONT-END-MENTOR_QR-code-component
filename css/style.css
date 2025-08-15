@@ -23,7 +23,10 @@ body {
   max-width: 100%;
   border-radius: 10px;
 }
-.layout .content h3, .layout .content p {
+.layout .content h1 {
+  font-size: 1.2em;
+}
+.layout .content h1, .layout .content p {
   text-align: center;
   padding: 0 8px;
 }
